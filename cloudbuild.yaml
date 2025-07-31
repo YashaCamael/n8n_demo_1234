@@ -1,0 +1,9 @@
+steps:
+  - name: "gcr.io/cloud-builders/curl"
+    entrypoint: /bin/bash
+    args:
+      - -c
+      - |
+        curl -X POST -H "Content-Type: application/json" \
+          -d @workflow/My\ AI\ Demo.json \
+          https://34.54.82.197.nip.io/webhook/cicd
