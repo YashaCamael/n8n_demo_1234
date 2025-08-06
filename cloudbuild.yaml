@@ -5,7 +5,7 @@ steps:
       - -c
       - |
         curl -X POST -H "Content-Type: application/json" \
-          -d @workflow/My\ AI\ Demo.json \
+          -d @workflow/AI\ Chatbot.json \
           -u $_BASIC_AUTH \
           https://34.54.82.197.nip.io/webhook/cicd
 
